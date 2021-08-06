@@ -9,3 +9,5 @@ console.log(nome);
 console.log(idade + n);
 //console.log(frase.toUpperCase());
 alert(frase.replace("Japão","Brasil"));
+
+//
