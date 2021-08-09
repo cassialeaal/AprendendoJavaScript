@@ -1,53 +1,41 @@
-var d = new Date();
-alert(d.getMonth());
-
-/*var count;
-for(count =0; count <=5 ; count++){
-    alert(count);
-}*/
-
-/*
-var count = 0;
-while(count<5){
-    console.log(count);
-    count++;
-}*/
-
-/*
-var idade = prompt("Qual sua idade");
-if(idade < 18){
-    alert("Menor de idade");
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+    //alert("Obrigado por clicar");
 }
-else{
-    alert("Maior de idade");
-}*/
 
+function redirecionar(){
+    window.open("https://www.linkedin.com/feed/");
+    //window.location.href = "https://www.linkedin.com/feed";
+}
 
-/*var fruta = [{nome: "maça", cor:"vermelha"}, {nome:"uva", cor: "roxo"}]
-console.log(fruta);
-alert(fruta[1].nome);
-*/
-/*
-var fruta = {nome: "maça", cor:"vermelha"}
-console.log(fruta.nome);
-alert(fruta.cor);
-*/
+function trocar(elemento){
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+}
 
-/*var nome = "Cassia Leal";
-var idade = 24;
-var idade2 = 10;
-var frase = "Japão é o melhor time do mundo"
-//alert(nome + " tem" + idade + " anos");
-alert(idade + idade2);
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
 
-console.log(nome);
-console.log(idade + n);
-//console.log(frase.toUpperCase());
-alert(frase.replace("Japão","Brasil"));
-*/
-//var lista = ["maça", "pera","laranja"];
-//lista.push("uva");
-//lista.pop();
-//console.log(lista);
-//console.log(lista.toString());
-//console.log(lista.join(" - "));
+function load(){
+    alert("Pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+/*function validaIdade(idade){
+    var validar;
+    if (idade >= 18) {
+        validar = true;
+    }
+    else{
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));*/
+
