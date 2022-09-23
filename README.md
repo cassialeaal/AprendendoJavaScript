@@ -20,7 +20,7 @@ Estruturando layout, écnicas de CSS3 com container e variáveis, posicionamento
 
 <p> Para acessar a página recriada por mim, basta fazer download deste repositório e abrir o arquivo index.html em seu navegador. Deve ser aberta uma
 página igual a imagem mostrada abaixo. </p>
-
+<br>
 <p align="center">
 <img src="img/FrontEndNetflixTest.png"/>
 </p>
