@@ -22,7 +22,7 @@ Estruturando layout, écnicas de CSS3 com container e variáveis, posicionamento
 página igual a imagem mostrada abaixo. </p>
 
 <p align="center">
-<img src="http://img/FrontEndNetflixTest.png"/>
+<img src="img/FrontEndNetflixTest.png"/>
 </p>
 
    
